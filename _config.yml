@@ -1,0 +1,36 @@
+# 사이트 기본 정보
+title: "AREXMADO 사이트"
+description: "AREXMADO 공식 사이트"
+url: "https://arexmado23.kro.kr" # 기본 URL
+baseurl: "" # GitHub Pages 저장소 이름이 URL에 들어가면 적음
+
+# 테마
+theme: minima
+
+# 저자 정보
+author:
+  name: "AREXMADO"
+  email: "youremail@example.com"
+
+# GitHub Pages용 플러그인
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Markdown 옵션
+markdown: kramdown
+
+# 소셜 링크 (선택)
+social_links:
+  - name: "YouTube"
+    url: "https://www.youtube.com/@arexmado"
+  - name: "팬카페"
+    url: "https://cafe.naver.com/arex"
+
+# 기본 레이아웃 설정
+defaults:
+  - scope:
+      path: "" # 모든 페이지에 적용
+      type: "posts"
+    values:
+      layout: "post"
